@@ -5,6 +5,8 @@ This project is inspired by [ROLO](https://github.com/Guanghan/ROLO). In this pr
 
 Consisting of two LSTM networks, the tracking module utilizes the spatial constraints from the detection module and follows the temporal dynamics of object motions to predict location offsets of the tracked objects.
 
+The proposed system with design alternatives demonstrates outstanding tracking performance and effectiveness compared to the state-of-the-art tracking algorithms.
+
 ![Tracking Sample1](assets/tracking_sample1.png)  
 
 ![Tracking Sample2](assets/tracking_sample2.png)  
