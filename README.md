@@ -19,6 +19,7 @@ The proposed system with design alternatives demonstrates outstanding tracking p
 + [Keras 2.1.2](https://keras.io/)
 + OpenCV 3.4
 + Python virtualenv [Optional]
++ Pycocotools [Optional]: [Linux](https://github.com/waleedka/coco), [Windows](https://github.com/philferriere/cocoapi)
 + Common packages listed in ```requirements.txt```
 
 ## Installation
@@ -49,7 +50,7 @@ pip install -r requirements.txt
 ## Demo
 After successfully completing [Installation](#installation), you'll be ready to run the demo. 
 
-1. Demo of R-RCNN. The results should be stored in ```$RRCNN_ROOT/demo_result```.
+1. Demo of R-RCNN. The results should be stored in ```$RRCNN_ROOT/rrcnn_result```.
 ```
 cd $RRCNN_ROOT
 python demo_rrcnn.py
